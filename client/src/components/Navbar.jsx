@@ -17,23 +17,19 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="glass-card" style={{ 
-      margin: '0', 
+    <nav className="glass-card" style={{
+      margin: '0',
       borderRadius: '0',
       borderTop: 'none',
       borderLeft: 'none',
       borderRight: 'none',
-      display: 'flex', 
-      justifyContent: 'space-between', 
+      display: 'flex',
+      justifyContent: 'space-between',
       alignItems: 'center',
       padding: '1rem 2rem'
     }}>
       <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
-<<<<<<< HEAD
         <h2 style={{ margin: 0, color: 'var(--color-primary)', marginRight: '1rem' }}>SmartServe Digital Restaurant</h2>
-=======
-        <h2 style={{ margin: 0, color: 'var(--color-primary)', marginRight: '1rem' }}>SmartServe Dine-In Portal</h2>
->>>>>>> feature/nav-header-update
         {user ? (
           <>
             <Link to="/" className={isActive('/')}>Home</Link>
