@@ -29,7 +29,7 @@ const Navbar = () => {
       padding: '1rem 2rem'
     }}>
       <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
-        <h2 style={{ margin: 0, color: 'var(--color-primary)', marginRight: '1rem' }}>SmartServe</h2>
+        <h2 style={{ margin: 0, color: 'var(--color-primary)', marginRight: '1rem' }}>SmartServe Digital Restaurant</h2>
         {user ? (
           <>
             <Link to="/" className={isActive('/')}>Home</Link>
